@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/video.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/sidebar.css">
+</head>
+<body style="padding-bottom:200px ;">
+
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="./icons/hamburger-menu.svg" alt="">
+            <img class="youtube-logo" src="./icons/youtube-logo.svg" alt="">
+        </div>
+
+         <div class="middle-section">
+            <input type="text" class="video-search" placeholder="Search">
+            
+            <button class="search-button">
+                <img src="./icons/search.svg"
+                     class="search-icon">
+                <div class="tooltip">
+                    Search
+                </div>
+            </button>
+
+            <button class="voice-search-button">
+                <img class="voice-search-icon"
+                      src="./icons/voice-search-icon.svg">
+                <div class="tooltip">
+                    Search with your voice 
+                </div>
+            </button>
+        </div>
+
+
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="video-upload-icon" 
+                src="./icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+
+            <div class="apps-icon-container">
+                <img class="video-youtube-apps-icon" 
+                src="./icons/youtube-apps.svg">
+                <div class="tooltip">Apps</div>
+            </div>
+
+            <div class="notifications-icon-container">       
+                <img class="video-notification-icon"
+                src="./icons/notifications.svg">
+                <div class="notifications-count">
+                    3
+                </div>
+                <div class="tooltip">Notifications</div>
+            </div>
+
+            <div class="chanel-icon-container">
+                <img class="chanel-picture" 
+                src="./chanel_imges/channel-1.jpeg">
+            </div>
+          
+        </div>
+
+    </header>
+
+
+   <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="./icons/home.svg">
+            <p>Home</p>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="./icons/explore.svg">
+            <p>Explore</p>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="./icons/subscriptions.svg">
+            <p>Subscriptions</p>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="./icons/originals.svg">
+            <p>Originals</p>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="./icons/youtube-music.svg">
+            <p>Youtube Music</p>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="./icons/library.svg">
+            <p>Library</p>
+        </div>
+    </nav>
+
+
+
+
+<!-- grid  -->
+   
+
+    <main>
+        <section class="video-grid">
+            <div>
+                <div class="thumbnail-row">
+                    <img src="./chanel_imges/thumbnail-1.webp" 
+                        class="image">
+                    <div class="video-time">
+                    14:30</div>
+                </div>
+                <div style="display: grid;
+                    grid-template-columns: 50px 1fr">
+                    <div>
+                        <img src="./chanel_imges/channel-1.jpeg"
+                        class="video-chanel-img">
+                    </div>
+                    <div> 
+                        <p class="video-title">How I Learned to Code in 4 Months &
+                            Got a Job! (No CS Degree, No Bootcamp)
+                        </p>
+                        <p class="video-author">Tim Kim</p>
+                        <p class="video-stats">2.2 M views  . il y a 3 mois</p>       
+                    </div>
+                    
+                </div>
+            </div>
+    
+    
+            <div>
+                <div class="thumbnail-row">
+                    <img src="./chanel_imges/thumbnail-2.webp" 
+                        class="image">
+                    <div class="video-time">
+                        14:30</div>
+                </div>
+                <div style="display: grid;
+                    grid-template-columns: 50px 1fr;">
+                    <div>
+                        <img src="./chanel_imges/channel-2.jpeg"
+                        class="video-chanel-img">
+                    </div>
+                    <div> 
+                        <p class="video-title">How I Learned to Code in 4 Months &
+                            Got a Job! (No CS Degree, No Bootcamp)
+                        </p>
+                        <p class="video-author">Tim Kim</p>
+                        <p class="video-stats">2.2 M views  . il y a 3 mois</p>       
+                    </div>
+                    
+                </div>
+            </div>
+    
+    
+            <div> 
+                <div class="thumbnail-row">
+                    <img src="./chanel_imges/thumbnail-1.webp" 
+                        class="image">
+                    <div class="video-time">
+                        14:30</div>
+                </div>
+                <div style="display: grid;
+                    grid-template-columns: 50px 1fr;">
+                    <div>
+                        <img src="./chanel_imges/channel-1.jpeg"
+                        class="video-chanel-img">
+                    </div>
+                    <div> 
+                        <p class="video-title">How I Learned to Code in 4 Months &
+                            Got a Job! (No CS Degree, No Bootcamp)
+                        </p>
+                        <p class="video-author">Tim Kim</p>
+                        <p class="video-stats">2.2 M views  . il y a 3 mois</p>       
+                    </div>
+                    
+                </div>
+            </div>
+    
+    
+            <div>
+                <div class="thumbnail-row">
+                    <img src="./chanel_imges/thumbnail-2.webp" 
+                        class="image">
+                    <div class="video-time">
+                        14:30</div>
+                </div>
+                <div style="display: grid;
+                    grid-template-columns: 50px 1fr">
+                    <div>
+                        <img src="./chanel_imges/channel-2.jpeg"
+                        class="video-chanel-img">
+                    </div>
+                    <div> 
+                        <p class="video-title">How I Learned to Code in 4 Months &
+                            Got a Job! (No CS Degree, No Bootcamp)
+                        </p>
+                        <p class="video-author">Tim Kim</p>
+                        <p class="video-stats">2.2 M views  . il y a 3 mois</p>       
+                    </div>
+                    
+                </div>
+            </div>
+    
+    
+            <div>
+                <div class="thumbnail-row">
+                    <img src="./chanel_imges/thumbnail-1.webp" 
+                        class="image">
+                    <div class="video-time">
+                        14:30</div>
+                </div>
+                <div style="display: grid;
+                    grid-template-columns: 50px 1fr;">
+                    <div>
+                        <img src="./chanel_imges/channel-1.jpeg"
+                        class="video-chanel-img">
+                    </div>
+                    <div> 
+                        <p class="video-title">How I Learned to Code in 4 Months &
+                            Got a Job! (No CS Degree, No Bootcamp)
+                        </p>
+                        <p class="video-author">Tim Kim</p>
+                        <p class="video-stats">2.2 M views  . il y a 3 mois</p>       
+                    </div>
+                    
+                </div>
+            </div>
+    
+    
+            <div> 
+                <div class="thumbnail-row">
+                    <img src="./chanel_imges/thumbnail-2.webp" 
+                        class="image">
+                    <div class="video-time">
+                        14:30</div>
+                </div>
+                <div style="display: grid;
+                    grid-template-columns: 50px 1fr;">
+                    <div>
+                        <img src="./chanel_imges/channel-2.jpeg"
+                        class="video-chanel-img">
+                    </div>
+                    <div> 
+                        <p class="video-title">How I Learned to Code in 4 Months &
+                            Got a Job! (No CS Degree, No Bootcamp)
+                        </p>
+                        <p class="video-author">Tim Kim</p>
+                        <p class="video-stats">2.2 M views  . il y a 3 mois</p>       
+                    </div>
+                    
+                </div>
+            </div>
+    
+    
+    
+    
+    
+    
+            
+            <div>
+                <div class="thumbnail-row">
+                    <img src="./chanel_imges/thumbnail-2.webp" 
+                        class="image">
+                    <div class="video-time">
+                        14:30</div>
+                </div>
+                <div style="display: grid;
+                    grid-template-columns: 50px 1fr">
+                    <div>
+                        <img src="./chanel_imges/channel-2.jpeg"
+                        class="video-chanel-img">
+                    </div>
+                    <div> 
+                        <p class="video-title">How I Learned to Code in 4 Months &
+                            Got a Job! (No CS Degree, No Bootcamp)
+                        </p>
+                        <p class="video-author">Tim Kim</p>
+                        <p class="video-stats">2.2 M views  . il y a 3 mois</p>       
+                    </div>
+                    
+                </div>
+            </div>
+    
+    
+            <div>
+                <div class="thumbnail-row">
+                    <img src="./chanel_imges/thumbnail-1.webp" 
+                        class="image">
+                    <div class="video-time">
+                        14:30</div>
+                </div>
+                <div style="display: grid;
+                    grid-template-columns: 50px 1fr;">
+                    <div>
+                        <img src="./chanel_imges/channel-1.jpeg"
+                        class="video-chanel-img">
+                    </div>
+                    <div> 
+                        <p class="video-title">How I Learned to Code in 4 Months &
+                            Got a Job! (No CS Degree, No Bootcamp)
+                        </p>
+                        <p class="video-author">Tim Kim</p>
+                        <p class="video-stats">2.2 M views  . il y a 3 mois</p>       
+                    </div>
+                    
+                </div>
+            </div>
+    
+    
+            <div> 
+                <div class="thumbnail-row">
+                    <img src="./chanel_imges/thumbnail-2.webp" 
+                        class="image">
+                    <div class="video-time">
+                        14:30</div>
+                </div>
+                <div style="display: grid;
+                    grid-template-columns: 50px 1fr;">
+                    <div>
+                        <img src="./chanel_imges/channel-2.jpeg"
+                        class="video-chanel-img">
+                    </div>
+                    <div> 
+                        <p class="video-title">How I Learned to Code in 4 Months &
+                            Got a Job! (No CS Degree, No Bootcamp)
+                        </p>
+                        <p class="video-author">Tim Kim</p>
+                        <p class="video-stats">2.2 M views  . il y a 3 mois</p>       
+                    </div>
+                    
+                </div>
+            </div>
+           
+        </section>
+    </main>
+    <!-- <div class="video-preview">
+        <div class="thumbnail-row">
+            <img src="./chanel_imges/thumbnail-1.webp" 
+                 class="image">
+        </div>
+        <div>
+            <div class="chanel-picture">
+                <img src="./chanel_imges/channel-1.jpeg"
+                    class="video-chanel-img">
+            </div> 
+            <div class="video-info">
+                <p class="video-title">How I Learned to Code in 4 Months &
+                    Got a Job! (No CS Degree, No Bootcamp)
+                </p>
+                <p class="video-author">Tim Kim</p>
+                <p class="video-stats">2.2 M views  . il y a 3 mois</p>    
+    
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img src="./chanel_imges/thumbnail-2.webp" 
+                 class="image">
+        </div>
+        <div>
+            <div class="chanel-picture">
+                <img src="./chanel_imges/channel-2.jpeg"
+                    class="video-chanel-img">
+            </div>
+            <div class="video-info">
+                <p class="video-title">How I Learned to Code in 4 Months &
+                    Got a Job! (No CS Degree, No Bootcamp)
+                </p>
+                <p class="video-author">Tim Kim</p>
+                <p class="video-stats">2.2 M views  . il y a 3 mois</p>    
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img src="./chanel_imges/thumbnail-1.webp" 
+                 class="image">
+        </div>
+        <div>
+            <div class="chanel-picture">
+                <img src="./chanel_imges/channel-1.jpeg"
+                    class="video-chanel-img">
+            </div>
+            <div class="video-info">
+                <p class="video-title">How I Learned to Code in 4 Months &
+                    Got a Job! (No CS Degree, No Bootcamp)
+                </p>
+                <p class="video-author">Tim Kim</p>
+                <p class="video-stats">2.2 M views  . il y a 3 mois</p>    
+    
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img src="./chanel_imges/thumbnail-2.webp" 
+                 class="image">
+        </div>
+        <div>
+            <div class="chanel-picture">
+                <img src="./chanel_imges/channel-2.jpeg"
+                    class="video-chanel-img">
+            </div>
+            <div class="video-info">
+                <p class="video-title">How I Learned to Code in 4 Months &
+                    Got a Job! (No CS Degree, No Bootcamp)
+                </p>
+                <p class="video-author">Tim Kim</p>
+                <p class="video-stats">2.2 M views  . il y a 3 mois</p>    
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img src="./chanel_imges/thumbnail-1.webp" 
+                 class="image">
+        </div>
+        <div>
+            <div class="chanel-picture">
+                <img src="./chanel_imges/channel-1.jpeg"
+                    class="video-chanel-img">
+            </div>
+            <div class="video-info">
+                <p class="video-title">How I Learned to Code in 4 Months &
+                    Got a Job! (No CS Degree, No Bootcamp)
+                </p>
+                <p class="video-author">Tim Kim</p>
+                <p class="video-stats">2.2 M views  . il y a 3 mois</p>    
+    
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img src="./chanel_imges/thumbnail-1.webp" 
+                 class="image">
+        </div>
+        <div>
+            <div class="chanel-picture">
+                <img src="./chanel_imges/channel-1.jpeg"
+                    class="video-chanel-img">
+            </div>
+            <div class="video-info">
+                <p class="video-title">How I Learned to Code in 4 Months &
+                    Got a Job! (No CS Degree, No Bootcamp)
+                </p>
+                <p class="video-author">Tim Kim</p>
+                <p class="video-stats">2.2 M views  . il y a 3 mois</p>    
+    
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img src="./chanel_imges/thumbnail-2.webp" 
+                 class="image">
+        </div>
+        <div>
+            <div class="chanel-picture">
+                <img src="./chanel_imges/channel-2.jpeg"
+                    class="video-chanel-img">
+            </div>
+            <div class="video-info">
+                <p class="video-title">How I Learned to Code in 4 Months &
+                    Got a Job! (No CS Degree, No Bootcamp)
+                </p>
+                <p class="video-author">Tim Kim</p>
+                <p class="video-stats">2.2 M views  . il y a 3 mois</p>    
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img src="./chanel_imges/thumbnail-1.webp" 
+                 class="image">
+        </div>
+        <div>
+            <div class="chanel-picture">
+                <img src="./chanel_imges/channel-1.jpeg"
+                    class="video-chanel-img">
+            </div>
+            <div class="video-info">
+                <p class="video-title">How I Learned to Code in 4 Months &
+                    Got a Job! (No CS Degree, No Bootcamp)
+                </p>
+                <p class="video-author">Tim Kim</p>
+                <p class="video-stats">2.2 M views  . il y a 3 mois</p>    
+    
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img src="./chanel_imges/thumbnail-2.webp" 
+                 class="image">
+        </div>
+        <div>
+            <div class="chanel-picture">
+                <img src="./chanel_imges/channel-2.jpeg"
+                    class="video-chanel-img">
+            </div>
+            <div class="video-info">
+                <p class="video-title">How I Learned to Code in 4 Months &
+                    Got a Job! (No CS Degree, No Bootcamp)
+                </p>
+                <p class="video-author">Tim Kim</p>
+                <p class="video-stats">2.2 M views  . il y a 3 mois</p>    
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img src="./chanel_imges/thumbnail-1.webp" 
+                 class="image">
+        </div>
+        <div>
+            <div class="chanel-picture">
+                <img src="./chanel_imges/channel-1.jpeg"
+                    class="video-chanel-img">
+            </div>
+            <div class="video-info">
+                <p class="video-title">How I Learned to Code in 4 Months &
+                    Got a Job! (No CS Degree, No Bootcamp)
+                </p>
+                <p class="video-author">Tim Kim</p>
+                <p class="video-stats">2.2 M views  . il y a 3 mois</p>    
+    
+            </div>
+        </div>
+    </div> -->
+</body>
+</html> 

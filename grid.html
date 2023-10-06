@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1 style="text-align:center;">display:grid;</h1>
+        <h2>grid-template-columns:100px 100px 200px;</h2>
+        <div style="
+                display: grid;
+                grid-template-columns:100px 100px 200px;    
+            ">
+            <div style="background-color: blue;">100px</div>
+            <div style="background-color: brown;">100px</div>
+            <div style="background-color: green;">200px<p>text</p><p>text2</p></div>
+        </div> 
+
+        <h2>grid-template-columns:100px 1fr;</h2>
+        <div style="
+                display: grid;
+                grid-template-columns:100px 1fr;    
+            ">
+            <div style="background-color: rgb(190, 56, 56);">100px</div>
+            <div style="background-color: blueviolet;">1fr</div>
+        </div> 
+
+        <h2>grid-template-columns:100px 1fr 2fr;</h2>
+
+        <div style="
+                display: grid;
+                grid-template-columns:100px 1fr 2fr;    
+            ">
+            <div style="background-color: blue;">100px</div>
+            <div style="background-color: brown;">1fr</div>
+            <div style="background-color: green;">2fr<p>text</p><p>text2</p></div>
+        </div> 
+            
+    </body>
+</html>
